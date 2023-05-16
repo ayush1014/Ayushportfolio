@@ -15,12 +15,14 @@
         <div class="container">
             <nav>
                 <img src="./pictures/ayushLogo.png" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Entry Level <span>Software Developer</span></p>
@@ -112,7 +114,7 @@
                 </h1class> My Projects</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="./pictures/work1.jpeg">
+                    <img src="./pictures/work1.jpeg" class="responsive">
                     <div class="layer">
                         <h3>Calculator</h3>
                         <p>This Calculator is made by using html, css, JavaScript. It returns the accurate and correct
@@ -121,7 +123,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="./pictures/work2.jpeg">
+                    <img src="./pictures/work2.jpeg" class="responsive">
                     <div class="layer">
                         <h3>Stopwatch</h3>
                         <p>This Stopwatch can run for as much as time you want. It have three buttons start, stop and
@@ -129,7 +131,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="./pictures/work3.jpeg">
+                    <img src="./pictures/work3.jpeg" class="responsive">
                     <div class="layer">
                         <h3>Live Clock</h3>
                         <p>This live clock was my first project using JavaScript, Html and Css. It access the location
@@ -137,7 +139,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="./pictures/work4.jpeg">
+                    <img src="./pictures/work4.jpeg" class="responsive">
                     <div class="layer">
                         <h3>Todo List</h3>
                         <p>This user friendly todo-list is great in storing the description and the title and user can
@@ -196,6 +198,18 @@
             document.getElementById(tabname).classList.add("active-tab");
             document.getElementById()
         }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+        
     </script>
 </body>
 
