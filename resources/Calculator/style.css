@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button1{
+    background-color: rgb(205, 212, 17);
+    font-size: 20px;
+    padding: 20px;
+    width: 66px;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.button2{
+    background-color: rgb(89, 121, 7);
+    font-size: 20px;
+    padding: 20px;
+    width: 66px;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.button3{
+    background-color: grey;
+    font-size: 20px;
+    padding: 20px;
+    width: 66px;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.button4{
+    background-color: grey;
+    font-size: 20px;
+    padding: 20px;
+    width: 140px;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.row{
+    margin: 8px 0;
+    width: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.row input{
+    width: 185px;
+    height: 33px;
+    margin: 0;
+    padding: 10px 47px;
+    border: 2px solid black;
+    border-radius: 100px;
+}

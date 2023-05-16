@@ -1,0 +1,16 @@
+.wrapper{
+    text-align: center;
+    font-size: 90%;
+}
+
+
+.btn{
+    border: none;
+    text-align: center;
+    display: inline;
+    font-size: medium;
+
+    margin: 2%;
+    font-size: larger;
+    padding: 2% 6%;
+}
