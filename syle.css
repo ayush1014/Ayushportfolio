@@ -388,6 +388,8 @@ nav .fas{
         border-radius: 10px;
       }
       .layer{
+        margin: auto;
+        width: auto;
         width: 98%;
         max-width: 331px;
         height: 0;
@@ -407,6 +409,8 @@ nav .fas{
         transition: height 0.8s;
     }
       .layer a{
+        margin: auto;
+        width: auto;
         margin-top: 10px;
         color: #ff004f;
         text-decoration: none;
