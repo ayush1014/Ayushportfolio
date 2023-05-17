@@ -385,6 +385,7 @@ nav .fas{
         width: 60%;
         max-width: 331px;
         height: auto;
+        border-radius: 10px;
       }
       .layer{
         width: 98%;
@@ -429,5 +430,12 @@ nav .fas{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 40px;
         margin-top: 50px;
+    }
+    .work img{
+        margin: auto;
+        width: auto;
+        border-radius: 10px;
+        display: block;
+        transition: transform 0.5s;
     }
 }
