@@ -326,6 +326,10 @@ nav .fas{
     .header-text h1{
         font-size: 20px;
     }
+    .logo{
+        margin-top: 10px;
+        max-width: 90px;
+    }
     nav .fas{
         display: block;
         font-size: 25px;
@@ -334,7 +338,7 @@ nav .fas{
         background: #ff004f;
         position: fixed;
         top: 0;
-        right: -200  px;
+        right: -200px;
         width: 200px;
         height: 100vh;
         padding-top: 50px;
@@ -371,7 +375,7 @@ nav .fas{
         margin-right: 20px;
     }
     .about-col-1 img {
-        height: 455px;
+        height: 500px;
         width: 100%;
         border-radius: 15px;
     }
@@ -383,7 +387,7 @@ nav .fas{
         height: auto;
       }
       .layer{
-        width: 68%;
+        width: 98%;
         max-width: 331px;
         height: 0;
         background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
@@ -418,5 +422,12 @@ nav .fas{
     }
     .work:hover .layer{
         height: 100%;
+    }
+    .work-list{
+        margin-left: -7px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 40px;
+        margin-top: 50px;
     }
 }
