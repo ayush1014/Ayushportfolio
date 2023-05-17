@@ -306,7 +306,11 @@ form .btn3{
     font-weight: 300;
     margin-top: 20px;
 }
-
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
 /* ---------------------css responsive--------------- */
 
 nav .fas{
@@ -320,15 +324,16 @@ nav .fas{
         background-image: none;
     }
     .header-text{
-        margin-top: 70%;
-        font-size: 16px;
+        margin-top: 80%;
+        font-size: 25px;
     }
     .header-text h1{
-        font-size: 20px;
+        font-size: 45px;
     }
     .logo{
         margin-top: 10px;
         max-width: 90px;
+        margin-right: 190px;
     }
     nav .fas{
         display: block;
@@ -375,7 +380,7 @@ nav .fas{
         margin-right: 20px;
     }
     .about-col-1 img {
-        height: 500px;
+        height: 700px;
         width: 100%;
         border-radius: 15px;
     }
@@ -439,5 +444,30 @@ nav .fas{
         border-radius: 10px;
         display: block;
         transition: transform 0.5s;
+    }
+    .contact-left h1{
+        font-size: 15px
+    }
+    .contact-left p i{
+        font-size:15px;
+    }
+    .contact-left p{
+        font-size: 10px;
+    }
+    form input, form textarea{
+        width: 100%;
+        border: 0;
+        outline: none;
+        background: #262626;
+        padding: 10px;
+        margin: 5px 0;
+        color: #fff;
+        font-size: 10px;
+        border-radius: 6px;
+    }
+   #msg{
+        color: #61b752;
+        margin-top: -40px;
+        display: block;
     }
 }
